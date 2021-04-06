@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Google Meet Auto Leave</title>
+  </head>
+
+  <body>
+    <div class="buttons">
+      <div class="active" id="timeBtn">🕑</div>
+      <div id="membersBtn">👤</div>
+      <div id="minutesBtn">⌛</div>
+    </div>
+
+    <div class="tab">
+      <input type="time" id="input" placeholder="Leave when time is x" data-action="time">
+      <button type="button" id="startBtn">START</button>
+      <button type="button" id="stopBtn">STOP</button>
+    </div>
+
+    <div class="status">No action running.</div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

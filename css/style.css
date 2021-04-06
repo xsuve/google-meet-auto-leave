@@ -1,0 +1,208 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #333;
+  width: 200px;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.buttons {
+  width: 100%;
+}
+.buttons div {
+  background-color: #222;
+  float: left;
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.buttons div:nth-child(2) {
+  border-left: 1px solid #444;
+  border-right: 1px solid #444;
+}
+.buttons div.active {
+  background-color: #333;
+}
+
+.status {
+  position: absolute;
+  background-color: #888;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  color: #fff;
+  padding: 1px 0px;
+}
+
+.tab #input {
+  font-family: 'Poppins', sans-serif;
+  background-color: #444;
+  height: 45px;
+  width: calc(100% - 30px);
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px 15px;
+  outline: 0 !important;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.tab #input::placeholder {
+  opacity: 1;
+  color: #888;
+}
+[type='time'] {
+  background: #444 url('../img/clock.png') 92% 50% no-repeat !important;
+}
+[type='time']::-webkit-inner-spin-button {
+  display: none;
+}
+[type='time']::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.tab button {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border: 0px;
+  border-radius: 0px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  height: 30px;
+  outline: none;
+}
+.tab button:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+.tab button#startBtn {
+  background-color: #8bd490;
+}
+.tab button#stopBtn {
+  background-color: #cb533d;
+}
+
+
+
+
+/* .container{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.exiticon{
+    position: absolute;
+    top: 14px;
+    left: 143px;
+    background-image: url('../img/exiticon.png');
+    background-size: cover;
+    height:32px;
+    width: 32px;
+}
+.line{
+    position: absolute;
+    top: 46px;
+    color: black;
+    width: 153px;
+    left: 21px;
+}
+.timeicon{
+    position: absolute;
+    top: 64px;
+    left: 23px;
+    background-image: url('../img/timeicon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.timeicon:hover{
+opacity: 0.5;
+}
+
+.membericon{
+    position: absolute;
+    top: 63px;
+    left: 83px;
+    background-image: url('../img/membericon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.membericon:hover{
+    opacity: 0.5;
+}
+
+.minutesicon{
+    position: absolute;
+    top: 64px;
+    left: 139px;
+    background-image: url('../img/minutesicon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+}
+.minutesicon:hover{
+    opacity: 0.5;
+}
+.enter{
+    position:absolute;
+    top: 102px;
+    left:132px;
+    font-family: 'Source Code Pro', monospace;
+    color:#757575
+}
+
+.tickicon{
+    position: absolute;
+    top: 151px;
+    left: 107px;
+    background-image: url('../img/tickicon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+
+}
+.tickicon:hover{
+    opacity: 0.5;
+}
+.stopicon{
+    position: absolute;
+    top: 151px;
+    left: 146px;
+    background-image: url('../img/stopicon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+
+}
+.stopicon:hover{
+    opacity: 0.5;
+}
+.inputvalue{
+    position: absolute;
+    top:125px;
+    left: 75px;
+
+}
+.hourglassicon{
+    position: absolute;
+    top: 151px;
+    left: 20px;
+    background-image: url('../img/hourglassicon.png');
+    background-size: cover;
+    height:30px;
+    width: 30px;
+    visibility: hidden;
+} */

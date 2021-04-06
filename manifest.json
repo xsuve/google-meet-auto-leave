@@ -1,0 +1,27 @@
+{
+  "name": "Google Meet Auto Leave",
+  "author": "xsuve",
+  "description": "Leave Google Meet after specific members count, time and minutes.",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/img/icon16.png",
+      "32": "/img/icon32.png",
+      "64": "/img/icon64.png",
+      "128": "/img/icon128.png"
+    }
+  },
+  "content_scripts": [{
+    "js": ["/js/background.js"],
+    "matches": ["http://meet.google.com/*", "https://meet.google.com/*"]
+  }],
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "/img/icon16.png",
+    "32": "/img/icon32.png",
+    "64": "/img/icon64.png",
+    "128": "/img/icon128.png"
+  }
+}

@@ -1,3 +1,5 @@
+![Google Meet Auto Leave - Leave Google Meet after specific members count, time and minutes.](screenshot.png)
+
 `2021 Series`
 # Google Meet Auto Leave
 Leave Google Meet after specific members count, time and minutes.
